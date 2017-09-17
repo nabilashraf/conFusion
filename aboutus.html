@@ -13,6 +13,22 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-inverse navbar-toggleable-sm fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html">Ristorante Con Fusion</a>
+        <div id="Navbar" class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <header class="jumbotron">
       <div class="container">
         <div class="row row-header">
@@ -27,13 +43,17 @@
     </header>
     <div class="container">
       <div class="row">
-        <div class="col">
+        <ol class="col-12 breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+          <li class="breadcrumb-item active">About Us</li>
+        </ol>
+        <div class="col-12">
           <h3>About Us</h3>
           <hr>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6">
+      <div class="row row-content">
+        <div class="col-sm-6">
           <h2>Our History</h2>
           <p>Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence in Hong Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it enjoys patronage from the A-list clientele in Hong Kong. Featuring four of the best three-star Michelin chefs in the world, you never know what will arrive on your plate the next time you visit us.</p>
           <p>The restaurant traces its humble beginnings to <em>The Frying Pan</em>, a successful chain started by our CEO, Mr. Peter Pan, that featured for the first time the world's best cuisines in a pan.</p>
@@ -41,8 +61,8 @@
         <div class="col">
         </div>
       </div>
-      <div class="row">
-        <div class="col col-sm">
+      <div class="row row-content">
+        <div class="col">
           <h2>Corporate Leadership</h2>
           <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
           <p class="hidden-xs-down">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
@@ -61,7 +81,7 @@
           <div class="col-5 offset-1 col-sm-2">
             <h5>Links</h5>
             <ul class="list-unstyled">
-              <li><a href="#">Home</a></li>
+              <li><a href="./index.html">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Menu</a></li>
               <li><a href="#">Contact</a></li>
@@ -78,7 +98,7 @@
               <br> Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
             </address>
           </div>
-          <div class="col-sm align-self-center">
+          <div class="col-sm-4 align-self-center">
             <div style="text-align:center">
               <a href="http://google.com/+">Google+</a>
               <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
