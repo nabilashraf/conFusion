@@ -52,25 +52,25 @@ body {
   bottom: 0px; }
 
 #loginModal .modal-header {
-  background-color: #440fcc;
+  background-color: #512DA8;
   color: floralwhite; }
   #loginModal .modal-header .close {
     color: floralwhite; }
 
 #loginModal .modal-body {
-  background-color: #cac7fe; }
+  background-color: #D1C4E9; }
 
 #loginModal .modal-footer {
-  background-color: #8e65ee; }
+  background-color: #9575CD; }
 
 #reserveModal .modal-header {
-  background-color: #440fcc;
+  background-color: #512DA8;
   color: floralwhite; }
   #reserveModal .modal-header .close {
     color: floralwhite; }
 
 #reserveModal .modal-body {
-  background-color: #cac7fe; }
+  background-color: #D1C4E9; }
 
 #reserveModal .modal-footer {
-  background-color: #8e65ee; }
+  background-color: #9575CD; }

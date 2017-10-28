@@ -77,32 +77,32 @@ body {
 
 #loginModal {
   .modal-header {
-    background-color: #440fcc;
+    background-color: $background-dark;
     color: floralwhite;
     .close {
       color: floralwhite;
     }
   }
   .modal-body {
-    background-color: #cac7fe;
+    background-color: $background-pale;
   }
   .modal-footer {
-    background-color: #8e65ee;
+    background-color: $background-light;
   }
 }
 
 #reserveModal {
   .modal-header {
-    background-color: #440fcc;
+    background-color: $background-dark;
     color: floralwhite;
     .close {
       color: floralwhite;
     }
   }
   .modal-body {
-    background-color: #cac7fe;
+    background-color: $background-pale;
   }
   .modal-footer {
-    background-color: #8e65ee;
+    background-color: $background-light;
   }
 }
