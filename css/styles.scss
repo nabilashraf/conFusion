@@ -74,3 +74,35 @@ body {
   position: absolute;
   bottom: 0px;
 }
+
+#loginModal {
+  .modal-header {
+    background-color: #440fcc;
+    color: floralwhite;
+    .close {
+      color: floralwhite;
+    }
+  }
+  .modal-body {
+    background-color: #cac7fe;
+  }
+  .modal-footer {
+    background-color: #8e65ee;
+  }
+}
+
+#reserveModal {
+  .modal-header {
+    background-color: #440fcc;
+    color: floralwhite;
+    .close {
+      color: floralwhite;
+    }
+  }
+  .modal-body {
+    background-color: #cac7fe;
+  }
+  .modal-footer {
+    background-color: #8e65ee;
+  }
+}
