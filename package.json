@@ -45,7 +45,7 @@
     "htmlmin": "0.0.7",
     "jit-grunt": "^0.10.0",
     "lite-server": "^2.3.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "onchange": "^3.2.1",
     "parallelshell": "^3.0.2",
     "rimraf": "^2.6.2",
